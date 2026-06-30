@@ -1,0 +1,13 @@
+<application>
+  <component name="CssEmmetOptions">
+    <option name="cssEmmetEnabled" value="false" />
+    <option name="fuzzySearchEnabled" value="true" />
+  </component>
+  <component name="EmmetOptions">
+    <option name="bemModifierSeparator" value="--" />
+    <option name="previewEnabled" value="true" />
+  </component>
+  <component name="JsxEmmetOptions">
+    <option name="emmetEnabled" value="false" />
+  </component>
+</application>

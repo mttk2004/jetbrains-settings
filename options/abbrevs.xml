@@ -1,0 +1,12 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="NavBarLocationHide">
+        <abbreviation name="CNB" />
+      </action>
+      <action id="NavBarLocationTop">
+        <abbreviation name="ONBT" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

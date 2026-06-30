@@ -1,0 +1,7 @@
+<templateSet group="React">
+  <template name="rsf" value="function $TM_FILENAME_BASE$($1$) {&#10;  return &lt;div&gt;$2$&lt;/div&gt;&#10; }&#10;&#10;export default $TM_FILENAME_BASE$;" description="React function component" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

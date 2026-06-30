@@ -1,0 +1,23 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($c$);" description="Inserts console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dq" value="document.querySelector(&quot;$c$&quot;);" description="Inserts document.querySelector()" toReformat="false" toShortenFQNames="true">
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dqa" value="document.querySelectorAll(&quot;$c$&quot;);" description="Inserts document.querySelectorAll()" toReformat="false" toShortenFQNames="true">
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

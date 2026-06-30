@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="cssm" value="import styles from './$TM_FILENAME_BASE$.module.css'" description="Import CSS module" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

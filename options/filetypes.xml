@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="19">
+    <extensionMap>
+      <mapping ext="ds" type="JavaScript" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="md" approved="true" type="XML" />
+      <removed_mapping ext="permissionset" approved="true" type="XML" />
+      <removed_mapping ext="profile" approved="true" type="XML" />
+      <mapping ext="ds" type="JavaScript" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="64bac2a8-9558-4b8a-a0e0-a4017ec9114f" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="4f556d32-83cb-4b8b-9932-c4eccc4ce3af" scheme="_@user_Gerry Darcula" />
+      <laf-to-scheme laf="64bac2a8-9558-4b8a-a0e0-a00000000023" scheme="_@user_Gerry Aurora Plus" />
+      <laf-to-scheme laf="64bac2a8-9558-4b8a-a0e0-a00000000048" scheme="_@user_Gerry Violet Plus" />
+      <laf-to-scheme laf="64bac2a8-9558-4b8a-a0e0-a4017ec9114e" scheme="_@user_Gerry Space Cyberpunk" />
+      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Default" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>

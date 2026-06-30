@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Language injection/Edit injected fragment" />
+    <ignoreAction name="LightEdit mode/Open file in project..." />
+    <ignoreAction name="LSP/Apply code action" />
+  </component>
+</application>
