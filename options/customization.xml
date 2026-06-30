@@ -1,14 +1,14 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="MainToolbarRight" is_group="true" forse_popup="false" action_type="-1" position="2">
+    <group value="MainToolbarRight" is_group="true" force_popup="false" action_type="-1" position="2">
       <path value="root" />
       <path value="Main Toolbar" />
     </group>
-    <group value="MainToolbarCenter" is_group="true" forse_popup="false" action_type="-1" position="1">
+    <group value="MainToolbarCenter" is_group="true" force_popup="false" action_type="-1" position="1">
       <path value="root" />
       <path value="Main Toolbar" />
     </group>
-    <group value="MainToolbarLeft" is_group="true" forse_popup="false" action_type="-1" position="0">
+    <group value="MainToolbarLeft" is_group="true" force_popup="false" action_type="-1" position="0">
       <path value="root" />
       <path value="Main Toolbar" />
     </group>
