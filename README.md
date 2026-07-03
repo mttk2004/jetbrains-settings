@@ -24,7 +24,7 @@ The custom keymap is defined in [keymaps/kiet.xml](file:///home/kiet/projects/se
 *   `Alt+S`: Caret clones and selection helpers.
 *   `Alt+R`: Refactoring and formatting.
 *   `Alt+T`: Running tests and build configurations.
-*   `F19` (Caps Lock mapped to `F19` on Arch Linux): Acts as a fast direct trigger layer.
+*   `F19` (Caps Lock mapped to `F19`): Acts as a fast direct trigger layer (see [Arch Linux & i3wm Setup](#arch-linux--i3wm-setup)).
 
 #### Custom Quick Lists (Gated Shortcuts):
 To avoid cluttering the keymap, less common commands are grouped into popup menus triggered by a single shortcut:
@@ -111,6 +111,25 @@ The [options/project.default.xml](file:///home/kiet/projects/settings/options/pr
     ├── filetypes.xml           # Global directory ignore lists
     ├── quicklists.xml          # Custom Quick List definitions (VCS, Focus modes)
     └── project.default.xml     # Annotation processing enabled by default
+```
+---
+
+## Arch Linux & i3wm Setup
+
+To make the `F19` layer key work, you need to map your **Caps Lock** key (keycode 66) to `F19` and clear the default Caps Lock behavior.
+
+### Temporary Remap (Test in Terminal)
+Run the following commands in your shell:
+```bash
+xmodmap -e "clear lock"
+xmodmap -e "keycode 66 = F19"
+```
+
+### Permanent Remap in i3wm
+To apply this mapping automatically every time you start your i3 session, add the following line to your i3 configuration file (typically located at `~/.config/i3/config`):
+```text
+# Remap Caps Lock to F19 for JetBrains shortcuts
+exec --no-startup-id xmodmap -e "clear lock" && xmodmap -e "keycode 66 = F19"
 ```
 
 ---
