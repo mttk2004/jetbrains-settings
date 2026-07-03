@@ -46,6 +46,14 @@
     <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt t" />
     <keyboard-shortcut first-keystroke="f19" second-keystroke="t" />
   </action>
+  <action id="Terminal.NewSession">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="shift alt t" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift t" />
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="escape" />
+  </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt g" />
   </action>

@@ -38,6 +38,8 @@ Nhóm này sử dụng tiền tố **`Alt + K`** hoặc phím tắt trực tiế
 | :--- | :--- | :--- | :--- |
 | `ActivateProjectToolWindow` | Mở/Đóng cây thư mục dự án (Project View) | `Alt + K`, `Alt + B` | `F19 + B` |
 | `ActivateTerminalToolWindow` | Mở/Đóng cửa sổ Terminal | `Alt + K`, `Alt + T` | `F19 + T` |
+| `Terminal.NewSession` | Mở tab Terminal mới | `Alt + K`, `Shift + Alt + T` | `F19 + Shift + T` |
+| `HideActiveWindow` | Ẩn cửa sổ đang hoạt động (ví dụ: Terminal đang focus) | `Alt + K`, `Escape` | `F19 + Escape` |
 | `RecentFiles` | Mở danh sách các file vừa dùng (Recent Files) | `Alt + K`, `Alt + F` | `F19 + O` |
 | `RecentLocations` | Mở các vị trí code vừa sửa (Recent Locations) | `Alt + K`, `Alt + E` | `F19 + E` |
 | `SplitHorizontally` | Chia đôi màn hình theo chiều ngang | `Alt + K`, `Alt + H` | `F19 + H` |
