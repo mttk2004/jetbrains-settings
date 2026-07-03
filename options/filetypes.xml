@@ -1,5 +1,6 @@
 <application>
   <component name="FileTypeManager" version="19">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;node_modules;vendor;venv;.venv;dist;build;.next;.nuxt;.yarn;target;" />
     <extensionMap>
       <mapping ext="ds" type="JavaScript" />
       <mapping ext="example" type="PLAIN_TEXT" />
