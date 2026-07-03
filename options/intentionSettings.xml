@@ -3,5 +3,12 @@
     <ignoreAction name="Language injection/Edit injected fragment" />
     <ignoreAction name="LightEdit mode/Open file in project..." />
     <ignoreAction name="LSP/Apply code action" />
+    <ignoreAction name="CSS/Wrap with tag" />
+    <ignoreAction name="HTML/Convert to XML tag" />
+    <ignoreAction name="HTML/Insert self-closing tag" />
+    <ignoreAction name="JavaScript/Split into declaration and assignment" />
+    <ignoreAction name="JavaScript/Merge nested 'if' statements" />
+    <ignoreAction name="JavaScript/Replace 'if' with 'switch'" />
+    <ignoreAction name="JavaScript/Convert to 'template string'" />
   </component>
 </application>
