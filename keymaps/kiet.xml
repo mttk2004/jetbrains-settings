@@ -126,24 +126,29 @@
   <!-- 5. Folding (alt f prefix) -->
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="shift alt c" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift OPEN_BRACKET" />
   </action>
   <action id="CollapseBlock">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt b" />
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="OPEN_BRACKET" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt s" />
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift CLOSE_BRACKET" />
   </action>
   <action id="ExpandCollapseToggleAction">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="BACK_SLASH" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt e" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="CLOSE_BRACKET" />
   </action>
   <action id="FoldImports">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt i" />
@@ -152,18 +157,23 @@
   <!-- 6. Selection (alt s prefix) -->
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt x" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="k" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="j" />
   </action>
   <action id="EditorSelectSingleLineAtCaret">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="l" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="a" />
   </action>
   <action id="EditorUnselectWord">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="x" />
   </action>
 
   <!-- 7. Refactoring (alt r prefix or F19 chord) -->

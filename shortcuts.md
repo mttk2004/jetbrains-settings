@@ -76,32 +76,32 @@ Nhóm này sử dụng tiền tố **`Alt + G`**:
 
 ## 5. Code Folding (Đóng/Mở khối code - Alt+F)
 
-Nhóm này sử dụng tiền tố **`Alt + F`**:
+Nhóm này sử dụng tiền tố **`Alt + F`** hoặc phím tắt trực tiếp **`F19`**:
 
-| Action ID | Chức năng | Phím tắt |
-| :--- | :--- | :--- |
-| `CollapseRegion` | Thu gọn khối code hiện tại | `Alt + F`, `Alt + C` |
-| `ExpandRegion` | Mở rộng khối code hiện tại | `Alt + F`, `Alt + E` |
-| `CollapseBlock` | Thu gọn toàn bộ khối bao ngoài | `Alt + F`, `Alt + B` |
-| `ExpandCollapseToggleAction` | Bật/Tắt đóng mở nhanh khối code | `Alt + F`, `Alt + T` |
-| `CollapseSelection` | Thu gọn vùng code được bôi đen | `Alt + F`, `Alt + S` |
-| `CollapseAllRegions` | Thu gọn tất cả các khối code trong file | `Alt + F`, `Shift + Alt + C` |
-| `ExpandAllRegions` | Mở rộng tất cả các khối code trong file | `Alt + F`, `Shift + Alt + E` |
-| `FoldImports` | Thu gọn danh sách Imports | `Alt + F`, `Alt + I` |
+| Action ID | Chức năng | Phím tắt 1 | Phím tắt 2 (F19 Layer) |
+| :--- | :--- | :--- | :--- |
+| `CollapseRegion` | Thu gọn khối code hiện tại | `Alt + F`, `Alt + C` | `F19 + [` |
+| `ExpandRegion` | Mở rộng khối code hiện tại | `Alt + F`, `Alt + E` | `F19 + ]` |
+| `CollapseBlock` | Thu gọn toàn bộ khối bao ngoài | `Alt + F`, `Alt + B` | |
+| `ExpandCollapseToggleAction` | Bật/Tắt đóng mở nhanh khối code | `Alt + F`, `Alt + T` | `F19 + \` |
+| `CollapseSelection` | Thu gọn vùng code được bôi đen | `Alt + F`, `Alt + S` | |
+| `CollapseAllRegions` | Thu gọn tất cả các khối code trong file | `Alt + F`, `Shift + Alt + C` | `F19 + {` (Shift+`[`) |
+| `ExpandAllRegions` | Mở rộng tất cả các khối code trong file | `Alt + F`, `Shift + Alt + E` | `F19 + }` (Shift+`]`) |
+| `FoldImports` | Thu gọn danh sách Imports | `Alt + F`, `Alt + I` | |
 
 ---
 
 ## 6. Selection & Caret Helpers (Chọn vùng & Đa con trỏ - Alt+S)
 
-Nhóm này sử dụng tiền tố **`Alt + S`**:
+Nhóm này sử dụng tiền tố **`Alt + S`** hoặc phím tắt trực tiếp **`F19`**:
 
-| Action ID | Chức năng | Phím tắt |
-| :--- | :--- | :--- |
-| `EditorCloneCaretAbove` | Thêm con trỏ ở dòng phía trên | `Alt + S`, `Alt + X` |
-| `EditorCloneCaretBelow` | Thêm con trỏ ở dòng phía dưới | `Alt + S`, `Alt + C` |
-| `EditorSelectWord` | Bôi đen từ tại con trỏ (mở rộng vùng chọn) | `Alt + S`, `Alt + W` |
-| `EditorUnselectWord` | Thu nhỏ vùng bôi đen đang chọn | `Alt + S`, `Alt + D` |
-| `EditorSelectSingleLineAtCaret` | Chọn nhanh toàn bộ dòng hiện tại | `Alt + S`, `Alt + L` |
+| Action ID | Chức năng | Phím tắt 1 | Phím tắt 2 (F19 Layer) |
+| :--- | :--- | :--- | :--- |
+| `EditorCloneCaretAbove` | Thêm con trỏ ở dòng phía trên | `Alt + S`, `Alt + X` | `F19 + k` |
+| `EditorCloneCaretBelow` | Thêm con trỏ ở dòng phía dưới | `Alt + S`, `Alt + C` | `F19 + j` |
+| `EditorSelectWord` | Bôi đen từ tại con trỏ (mở rộng vùng chọn) | `Alt + S`, `Alt + W` | `F19 + a` |
+| `EditorUnselectWord` | Thu nhỏ vùng bôi đen đang chọn | `Alt + S`, `Alt + D` | `F19 + x` |
+| `EditorSelectSingleLineAtCaret` | Chọn nhanh toàn bộ dòng hiện tại | `Alt + S`, `Alt + L` | `F19 + l` |
 
 ---
 
