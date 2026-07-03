@@ -1,0 +1,27 @@
+<templateSet group="Java">
+  <template name="inj" value="private final $CLASS$ $VAR$;&#10;&#10;@org.springframework.beans.factory.annotation.Autowired&#10;public $CURRENT_CLASS$($CLASS$ $VAR$) {&#10;    this.$VAR$ = $VAR$;&#10;}" description="Spring constructor injection" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURRENT_CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getm" value="@org.springframework.web.bind.annotation.GetMapping(&quot;/$PATH$&quot;)&#10;public org.springframework.http.ResponseEntity<$RESP_TYPE$> get$METHOD$() {&#10;    return org.springframework.http.ResponseEntity.ok($END$);&#10;}" description="Spring GetMapping" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESP_TYPE" expression="" defaultValue="Void" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="postm" value="@org.springframework.web.bind.annotation.PostMapping(&quot;/$PATH$&quot;)&#10;public org.springframework.http.ResponseEntity<$RESP_TYPE$> create$METHOD$(@org.springframework.web.bind.annotation.RequestBody $REQ_TYPE$ request) {&#10;    return org.springframework.http.ResponseEntity.ok($END$);&#10;}" description="Spring PostMapping" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESP_TYPE" expression="" defaultValue="Void" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REQ_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
