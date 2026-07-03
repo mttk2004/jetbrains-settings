@@ -1,0 +1,20 @@
+<application>
+  <component name="QuickListsManager">
+    <quickList id="GitExtended" displayName="Git Extended Operations" description="Less frequent Git operations">
+      <action id="Git.Merge" />
+      <action id="Git.Rebase" />
+      <action id="Git.Stash" />
+      <action id="Git.Unstash" />
+      <action id="Git.ResolveConflicts" />
+      <action id="Git.CherryPick" />
+    </quickList>
+    <quickList id="FocusView" displayName="Focus &amp; View Modes" description="Toggles for distraction-free coding and layouts">
+      <action id="ToggleZenMode" />
+      <action id="ToggleDistractionFreeMode" />
+      <action id="TogglePresentationMode" />
+      <action id="ViewStatusBar" />
+      <action id="ViewNavigationBar" />
+      <action id="ViewToolButtons" />
+    </quickList>
+  </component>
+</application>

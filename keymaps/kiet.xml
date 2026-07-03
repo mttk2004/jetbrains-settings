@@ -78,6 +78,10 @@
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt s" />
   </action>
+  <action id="QuickList.FocusView">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt z" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="z" />
+  </action>
 
   <!-- 4. Git & VCS (alt g prefix) -->
   <action id="Annotate">
@@ -106,6 +110,9 @@
   </action>
   <action id="Vcs.Show.Log">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt l" />
+  </action>
+  <action id="QuickList.GitExtended">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="alt e" />
   </action>
 
   <!-- 5. Folding (alt f prefix) -->
