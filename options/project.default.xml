@@ -4,6 +4,13 @@
       <component name="ComposerSettings">
         <execution />
       </component>
+      <component name="CompilerConfiguration">
+        <annotationProcessing>
+          <profile default="true" name="Default" enabled="true">
+            <processorPath useClasspath="true" />
+          </profile>
+        </annotationProcessing>
+      </component>
       <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "settings.editor.selected.configurable": "preferences.pluginManager"
