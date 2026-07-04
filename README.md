@@ -134,6 +134,13 @@ exec --no-startup-id xmodmap -e "clear lock" && xmodmap -e "keycode 66 = F19"
 
 ---
 
+## Prerequisites
+
+### 1. Editor Font
+This configuration uses **CaskaydiaCove Nerd Font** (SemiLight/SemiBold weight) as the default editor font in [options/editor-font.xml](file:///home/kiet/projects/settings/options/editor-font.xml). Please install this font on your system beforehand.
+
+---
+
 ## Importing Settings
 
 To apply this setup to your IDE:
