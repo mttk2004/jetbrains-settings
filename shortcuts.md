@@ -26,7 +26,9 @@ Tài liệu này liệt kê toàn bộ các phím tắt tùy chỉnh trong file 
 | :--- | :--- | :--- |
 | `SearchEverywhere` | Tìm kiếm tất cả mọi thứ (Search Everywhere) | `F19 + F` |
 | `GotoDeclaration` | Đi tới định nghĩa (Go to Declaration/Definition) | `F19 + D` |
+| `GotoImplementation` | Đi tới lớp triển khai (Go to Implementation) | `F19 + Shift + D` |
 | `FindUsages` | Tìm các vị trí sử dụng (Find Usages) | `F19 + U` |
+| `FileStructurePopup` | Mở danh sách cấu trúc/hàm của file hiện tại (File Structure) | `F19 + M` |
 
 ---
 
@@ -80,13 +82,13 @@ Nhóm này sử dụng tiền tố **`Alt + F`** hoặc phím tắt trực tiế
 
 | Action ID | Chức năng | Phím tắt 1 | Phím tắt 2 (F19 Layer) |
 | :--- | :--- | :--- | :--- |
-| `CollapseRegion` | Thu gọn khối code hiện tại | `Alt + F`, `Alt + C` | `F19 + [` |
-| `ExpandRegion` | Mở rộng khối code hiện tại | `Alt + F`, `Alt + E` | `F19 + ]` |
+| `CollapseRegion` | Thu gọn khối code hiện tại | `Alt + F`, `Alt + C` | `F19 + 1` |
+| `ExpandRegion` | Mở rộng khối code hiện tại | `Alt + F`, `Alt + E` | `F19 + 2` |
 | `CollapseBlock` | Thu gọn toàn bộ khối bao ngoài | `Alt + F`, `Alt + B` | |
 | `ExpandCollapseToggleAction` | Bật/Tắt đóng mở nhanh khối code | `Alt + F`, `Alt + T` | `F19 + \` |
 | `CollapseSelection` | Thu gọn vùng code được bôi đen | `Alt + F`, `Alt + S` | |
-| `CollapseAllRegions` | Thu gọn tất cả các khối code trong file | `Alt + F`, `Shift + Alt + C` | `F19 + {` (Shift+`[`) |
-| `ExpandAllRegions` | Mở rộng tất cả các khối code trong file | `Alt + F`, `Shift + Alt + E` | `F19 + }` (Shift+`]`) |
+| `CollapseAllRegions` | Thu gọn tất cả các khối code trong file | `Alt + F`, `Shift + Alt + C` | `F19 + 3` |
+| `ExpandAllRegions` | Mở rộng tất cả các khối code trong file | `Alt + F`, `Shift + Alt + E` | `F19 + 4` |
 | `FoldImports` | Thu gọn danh sách Imports | `Alt + F`, `Alt + I` | |
 
 ---

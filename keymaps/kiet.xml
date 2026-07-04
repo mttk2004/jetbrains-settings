@@ -27,8 +27,14 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f19" second-keystroke="d" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift d" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="f19" second-keystroke="f" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="m" />
   </action>
 
   <!-- 3. Workspace & Layout (alt k prefix or F19 chord) -->
@@ -126,21 +132,21 @@
   <!-- 5. Folding (alt f prefix) -->
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="shift alt c" />
-    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="3" />
   </action>
   <action id="CollapseBlock">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt b" />
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="f19" second-keystroke="OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="1" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt s" />
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="shift alt e" />
-    <keyboard-shortcut first-keystroke="f19" second-keystroke="shift CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="4" />
   </action>
   <action id="ExpandCollapseToggleAction">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt t" />
@@ -148,7 +154,7 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt e" />
-    <keyboard-shortcut first-keystroke="f19" second-keystroke="CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="f19" second-keystroke="2" />
   </action>
   <action id="FoldImports">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="alt i" />
