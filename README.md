@@ -132,6 +132,41 @@ To apply this mapping automatically every time you start your i3 session, add th
 exec --no-startup-id xmodmap -e "clear lock" && xmodmap -e "keycode 66 = F19"
 ```
 
+### Wayland Setup (Alternative)
+Since `xmodmap` only works under X11, if you are running a Wayland session (e.g. Sway, Hyprland), use one of the following daemon tools:
+
+#### 1. Using `keyd` (Recommended, simple & global)
+Create or edit `/etc/keyd/default.conf`:
+```ini
+[ids]
+*
+
+[main]
+capslock = f19
+```
+Then enable and start the service:
+```bash
+sudo systemctl enable --now keyd
+```
+
+#### 2. Using `kanata`
+Create a config file (e.g., `~/.config/kanata/config.kbd`):
+```lisp
+(defsrc
+  caps)
+(deflayer default
+  f19)
+```
+
+#### 3. Using `kmonad`
+Create a config file (e.g., `~/.config/kmonad/config.kbd`):
+```lisp
+(defsrc
+  caps)
+(deflayer default
+  f19)
+```
+
 ---
 
 ## Prerequisites
