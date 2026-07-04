@@ -155,4 +155,12 @@
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
+  <component name="ActionOnSaveManager">
+    <option name="myRunOnSave">
+      <map>
+        <entry key="OptimizeImports" value="true" />
+        <entry key="ReformatCode" value="true" />
+      </map>
+    </option>
+  </component>
 </application>
