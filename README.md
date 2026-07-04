@@ -139,6 +139,9 @@ exec --no-startup-id xmodmap -e "clear lock" && xmodmap -e "keycode 66 = F19"
 ### 1. Editor Font
 This configuration uses **CaskaydiaCove Nerd Font** (SemiLight/SemiBold weight) as the default editor font in [options/editor-font.xml](file:///home/kiet/projects/settings/options/editor-font.xml). Please install this font on your system beforehand.
 
+### 2. Plugins & Themes
+Ensure you have the required plugins installed before loading these settings to prevent UI/theme lookup warnings. The plugins are listed in [installed.txt](file:///home/kiet/projects/settings/installed.txt) (specifically the Gerry Themes Pro plugin for the `Gerry Space Cyberpunk` theme configured in [options/laf.xml](file:///home/kiet/projects/settings/options/laf.xml)).
+
 ---
 
 ## Importing Settings
